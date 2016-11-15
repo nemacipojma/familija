@@ -4,10 +4,12 @@ html, body {
 html {
 	background-image: url('../img/pocetna.jpg');
 	background-size: cover;
+
 }
 body {
 	background-color: rgba(44,62,80 , 0.6 );
 	font-family: 'Raleway', 'Arial', sans-serif;
+
 }
 .countdown-container {
 	position: relative;
