@@ -9,13 +9,14 @@
     transition: all 0.3s ease;
 }
 
+
 .navbar-nav > li{
     padding-left:10px;
     padding-right:10px;
 
 }
 .navbar-nav > li > a:hover {
-    background-color: #FFFF00;
+    background-color: white;
     color: black;
 }
 
@@ -36,9 +37,20 @@
     background: #00a8ff;
 }
 
-.pera{
-    z-index: 1;
+
+.akcija {
+    margin-top: 100px;
+    position: absolute;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+
 }
+
+
+
+
+
 
 
 
