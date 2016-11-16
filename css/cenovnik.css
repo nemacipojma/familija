@@ -8,5 +8,5 @@ html, body {
 
 .center {
     text-align:center;
-    display:inline-block;
+    margin-top: 100px;
 }
