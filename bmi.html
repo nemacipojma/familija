@@ -57,7 +57,7 @@
                         <label>Pol :</label>
                     </div>
                     <div class="radio">
-                        <label><input type="radio" value="">Muski</label>
+                        <label><input type="radio" value="" checked="">Muski</label>
                     </div>
                     <div class="radio">
                         <label><input type="radio" value="">Zenski</label>
@@ -93,41 +93,7 @@
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-    $(document).ready(function () {
-
-        $("#izracunaj").on('click', function () {
-
-
-            var tezina = $('input[id="tezina"]').val();
-            var visina = $('input[id="visina"]').val();
-            
-            var racun = Math.round((tezina/(visina/100*visina/100))) ;
-            document.bmiForm.bmi.value = racun;
-
-            if(racun < 18.5){
-                document.bmiForm.poruka.value = "Previse ste mrsavi."
-            }
-            if(racun > 18.5 && racun < 25){
-                document.bmiForm.poruka.value = "Vi ste normalne tezine."
-            }
-            if(racun > 25){
-                document.bmiForm.poruka.value = "Gojazni ste."
-            }
-
-   	 	});
-    });
-
-
-</script>
-
-
-
-
-
-
+<script src="js/bmi-kalkulator.js" type="text/javascript"></script>
 
 </body>
 </html>
