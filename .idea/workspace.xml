@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8058259-9697-4590-bee4-de3d5e35ea0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cenovnik.html" afterPath="$PROJECT_DIR$/cenovnik.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cenovnik.css" afterPath="$PROJECT_DIR$/css/cenovnik.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb9.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onama.html" afterPath="$PROJECT_DIR$/onama.html" />
     </list>
     <ignored path="familija.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,6 +63,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onama.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onama.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -97,12 +131,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/galerija.html" />
         <option value="$PROJECT_DIR$/css/registracija.css" />
-        <option value="$PROJECT_DIR$/onama.html" />
         <option value="$PROJECT_DIR$/countdown.html" />
         <option value="$PROJECT_DIR$/css/galerija.css" />
         <option value="$PROJECT_DIR$/css/generalni.css" />
         <option value="$PROJECT_DIR$/css/cenovnik.css" />
         <option value="$PROJECT_DIR$/cenovnik.html" />
+        <option value="$PROJECT_DIR$/onama.html" />
       </list>
     </option>
   </component>
@@ -260,12 +294,12 @@
       <workItem from="1479150311764" duration="17513000" />
       <workItem from="1479234842947" duration="15316000" />
       <workItem from="1479251545325" duration="6297000" />
-      <workItem from="1479322771617" duration="1819000" />
+      <workItem from="1479322771617" duration="2185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50560000" />
+    <option name="totallyTimeSpent" value="50926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
@@ -502,13 +536,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/registracija.css" />
-    <entry file="file://$PROJECT_DIR$/onama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kontakt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -562,6 +589,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onama.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding />
         </state>
       </provider>
