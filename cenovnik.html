@@ -72,7 +72,7 @@
                         <input type="text" id="visina" class="form-control" placeholder="Visina" size="10">
                     </div>
 
-                    <button class="btn btn-success " type="submit">Izracunaj</button>
+                    <button class="btn btn-success " type="button" 	id="izracunaj">Izracunaj</button>
                     <button class="btn btn-danger " type="reset">Resetuj</button>
                     <hr>
                     <br><br><br>
@@ -99,7 +99,7 @@
 
     $(document).ready(function () {
 
-        $("#kalkulator").on('click', function () {
+        $("#izracunaj").on('click', function () {
 
 
             var tezina = $('input[id="tezina"]').val();
@@ -118,7 +118,7 @@
                 document.bmiForm.poruka.value = "Gojazni ste."
             }
 
-    });
+   	 	});
     });
 
 
