@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/onama.css" rel="stylesheet" type="text/css"/>
+    <link href="css/generalni.css" rel="stylesheet" type="text/css"/>
     <!--
     <link href="css/navigacija.css" rel="stylesheet" type="text/css"/>
 	-->
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-	<!-- Navigacija -->
+<!-- Navigacija -->
  <nav class="navbar">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -31,6 +31,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Pocetna</a></li>
                 <li><a href="onama.html">O nama</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="cenovnik.html">Cenovnik</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#registracija" class="btn btn-blue">Registracija</a>
                 </li>
@@ -39,7 +41,33 @@
     </div>
 </nav>
 
-	
+<!-- Registracija -->
+
+<div class="modal fade" id="registracija" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title text-center">Registracija</h4>
+            </div>
+            <form action="" class="popup-form pera">
+                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Unesite Vase ime." placeholder="Ime" required id="ime">
+                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Unesite Vase prezime." placeholder="Prezime" required id="prezime">
+                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Unesite Vas username." placeholder="Username" required id="username">
+                <input type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Unesite Vasu email adresu." placeholder="Email" required id="email">
+                <input type="password" class="form-control" data-toggle="tooltip" data-placement="top" title="Unesite Vasu sifru." placeholder="Password" required id="password">
+                <div class = "checkbox checkbox-inline">
+                    <div class="checkbox">
+                        <input type="checkbox" value="" id="uslovi" name="check" data-toggle="tooltip" data-placement="top" title="Cekiranjem ovog dugmeta, prihvatata uslove korsicenja sajta."/>
+                        <label><span><strong>Prihvatam  uslove koriscenja</strong></span></label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success center-block" data-toggle="tooltip" data-placement="top" title="Klikom na ovo dugme, kreirali ste svoj nalog!" id="btnValidacija">Registruj se</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
 <div class="jumbotron" id="o-nama-header">
 	<div class="container">
 	</div>
@@ -54,7 +82,7 @@
 				<h2>O nama</h2>
 
 				<p class="text-justify">
-					Salon nameštaja LEM osnovan je 2016. godine u Beogradu sa idejom prvog dot-com salona nameštaja u Srbiji. Putem naše prezentacije želimo da Vam omogućimo prijatnu saradnju pod jednim krovom sa najraznovrsnijom ponudom. Glavni cilj naše kompanije je unapređenje elektronske trgovine nameštaja u Srbiji i na taj način razbijanje predrasuda potrošača o tradicionalnoj trgovini materijalnim dobrima.
+					Fitness centar Familija osnovan je 2002. godine u Topoli. Putem naše prezentacije želimo da Vam omogućimo prijatnu saradnju pod jednim krovom sa najraznovrsnijom ponudom. Iako postoji već dugi niz godina, Familija se trudi da i dalje prati najnovije trendove u okvirima bodybilding-a i fitness-a, kao i da se konstantim unapredjivanjem zadrži u samom vrhu na kome se nalazi već dugi niz godina.
 				</p>
 			</div>
 
@@ -62,19 +90,19 @@
 				<h2>Misija, vizija i ciljevi</h2>
 
 				<p>
-					<b>Misija:</b> Predvideti i zadovoljiti najsofisticiranije potrebe naših kupaca.<BR>
+					<b>Misija:</b> Postati lider u svojoj oblasti i zadovoljiti sve potrebe kupaca.<BR>
 				</p>
 
 				<p>
-					<b>Vizija:</b> Postati sinonim za elektronski salon nameštaja.
+					<b>Vizija:</b> Podići svet bodybilding-a na viši nivo.
 				</p>
 
 				<p>
-					<b>Ciljevi naše kompanije:</b>
+					<b>Ciljevi fitness centra Familija:</b>
 					<ul>
-						<li>Maksimalna iskorišćenost svih resursa</li>
-						<li>Razvoj novih proizvoda uz podršku korisnika</li>
-						<li>Brz odgovor na zahteve tržišta</li>
+						<li>Bolja promocija i prezentacija naših usluga</li>
+						<li>Bolja komunikacija sa potencijalnim korisnicima i razvijanje njihove svesti o vođenju brige o telu i zdravlju</li>
+						<li>Mogućnost kupovine suplemenata u okviru centra, i davanje saveta koriscenja istih</li>
 						<li>Pružanje dodatnih usluga potrošačima</li>
 					</ul>
 				</p>
@@ -86,6 +114,56 @@
 
 </div>
 
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/kinetic.js"></script>
+<script type="text/javascript" src="js/jquery.final-countdown.js"></script>
+<script type="text/javascript" src="js/countdown.js"></script>
+<script type="text/javascript" src="js/registracija.js"></script>
+
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+            $("#btnValidacija").click(function () {
+                var ime = $('input[id="ime"]').val();
+                var prezime = $('input[id="prezime"]').val();
+                var username = $('input[id="username"]').val();
+                var email = $('input[id="email"]').val();
+                var sifra = $('input[id="password"]').val();
+                
+                if ($.trim(email).length == 0 || $.trim(ime).length == 0 || $.trim(prezime).length == 0
+                    || $.trim(username).length == 0 || sifra.length == 0) {
+                        alert("Unesite sve podatke!");
+                        return false;
+                } else if (validateEmail(email)) {
+                    if (sifra.length >= 5) {
+                        if ($('input[type="checkbox"]:checked').length > 0) {
+                            alert("Uspesna prijava!");
+                            return true;          
+                        } else {
+                            alert("Morate da prihvatite uslove koriscenja!");
+                            return false;
+                        }
+                    } else {
+                        alert("Sifra mora da sadrzi najmanje 5 karaktera!");
+                        return false;
+                    }
+                } else {
+                    alert("Greska pri unosu email-a.");
+                    return false;
+                }
+            });
+        });
+
+        function validateEmail (sEmail) {
+            var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/; 
+            if (filter.test(sEmail))
+                return true;
+            else
+                return false;
+        }
+
+</script>
 
 
 </body>

@@ -4,13 +4,12 @@ html, body {
 	height: 100%;
 }
 
-
-
 #o-nama-header {
-	background: url('../img/onama.jpg');
+	background: url('../img/slika7.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 350px;
+	margin-top: 80px; 
 }
 
 .content {
@@ -50,19 +49,6 @@ html, body {
 
 .icon-bar {
     background: #bbb;
-}
-
-
-.footer {
-	background-color: #222;
-	color: white;
-	height: 80px;
-	line-height: 80px;
-	font-style: italic;
-}
-
-.header {
-	height: 100px;
 }
 
 .modal-dialog {
