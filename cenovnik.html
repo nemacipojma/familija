@@ -40,40 +40,90 @@
 <section id="title-bar">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h1>Kontaktirajte nas</h1>
+            <div class="col-md-12 white">
+                <h1 class="r">Izracunajte Vas BMI</h1>
             </div>
         </div>
     </div>
 </section>
-<section id="contact">
+
+<section id="kalkulator" >
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <form>
+            <div class="col-md-8 white">
+                <form name="bmiForm">
                     <div class="form-group">
-                        <label>Ime</label>
-                        <input type="text" class="form-control" placeholder="Unesite Ime">
+                        <label>Pol :</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" value="">Muski</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" value="">Zenski</label>
                     </div>
                     <div class="form-group">
-                        <label>Prezime</label>
-                        <input type="text" class="form-control" placeholder="Unesite Prezime">
+                        <label>Unesite Vasu tezunu (kg)</label>
+                        <input type="text" id="tezina" class="form-control" placeholder="Tezina" size="10">
                     </div>
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" placeholder="Unesite Email">
+                        <label>Unesite Vasu visinu (cm)</label>
+                        <input type="text" id="visina" class="form-control" placeholder="Visina" size="10">
+                    </div>
+
+                    <button class="btn btn-danger" type="reset">Resetuj</button>
+                    <hr>
+                    <br><br><br>
+                    <div class="form-group">
+                        <label>Vas BMI</label>
+                        <input type="text" name="bmi" class="form-control">
                     </div>
                     <div class="form-group">
                         <label>Poruka</label>
-                        <textarea class="form-control" placeholder="Unesite Poruku"></textarea>
+                        <textarea name="poruka" class="form-control" ></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-default">Posalji</button>
+
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("#kalkulator").on('click', function () {
+
+
+            var tezina = $('input[id="tezina"]').val();
+            var visina = $('input[id="visina"]').val();
+            
+            var racun = Math.round((tezina/(visina/100*visina/100))) ;
+            document.bmiForm.bmi.value = racun;
+
+            if(racun < 18.5){
+                document.bmiForm.poruka.value = "Previse ste mrsavi."
+            }
+            if(racun > 18.5 && racun < 25){
+                document.bmiForm.poruka.value = "Vi ste normalne tezine."
+            }
+            if(racun > 25){
+                document.bmiForm.poruka.value = "Gojazni ste."
+            }
+
+    });
+    });
+
+
+</script>
+
+
+
+
 
 
 
