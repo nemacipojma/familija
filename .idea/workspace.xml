@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f8058259-9697-4590-bee4-de3d5e35ea0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cenovnik.html" afterPath="$PROJECT_DIR$/cenovnik.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/generalni.css" afterPath="$PROJECT_DIR$/css/generalni.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="familija.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1564">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="cenovnik.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/cenovnik.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,18 +49,8 @@
       <file leaf-file-name="cenovnik.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cenovnik.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kontakt1.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/kontakt1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="49" column="10" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -66,8 +69,8 @@
       <file leaf-file-name="generalni.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generalni.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="411">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,15 +116,15 @@
         <option value="$PROJECT_DIR$/js/registracija.js" />
         <option value="$PROJECT_DIR$/css/navigacija.css" />
         <option value="$PROJECT_DIR$/css/countdown.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/galerija.html" />
         <option value="$PROJECT_DIR$/css/registracija.css" />
         <option value="$PROJECT_DIR$/countdown.html" />
         <option value="$PROJECT_DIR$/css/galerija.css" />
-        <option value="$PROJECT_DIR$/css/generalni.css" />
         <option value="$PROJECT_DIR$/css/cenovnik.css" />
-        <option value="$PROJECT_DIR$/cenovnik.html" />
         <option value="$PROJECT_DIR$/onama.html" />
+        <option value="$PROJECT_DIR$/cenovnik.html" />
+        <option value="$PROJECT_DIR$/css/generalni.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -279,12 +282,12 @@
       <workItem from="1479150311764" duration="17513000" />
       <workItem from="1479234842947" duration="15316000" />
       <workItem from="1479251545325" duration="6297000" />
-      <workItem from="1479322771617" duration="2698000" />
+      <workItem from="1479322771617" duration="3716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51439000" />
+    <option name="totallyTimeSpent" value="52457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
@@ -546,10 +549,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/onama.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/kontakt1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cenovnik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="10" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -562,34 +581,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cenovnik.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/generalni.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="411">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/kontakt1.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="-1564">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
           <folding />
         </state>
       </provider>
