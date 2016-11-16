@@ -9,10 +9,8 @@ html, body {
 .container {
     text-align:center;
     margin-top: 100px;
+	color: white;
 }
-
-.centriranje {
-	text-align:center;
-	
-	
+.form-control {
+    margin: 0 auto;
 }
