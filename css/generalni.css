@@ -1,3 +1,22 @@
+html, body {
+	background: url('../img/pocetna.jpg');
+	width: 100%;
+	height: 100%;
+}
+
+#o-nama-header {
+	background: url('../img/onama.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+	margin-top: 80px; 
+}
+
+.content {
+	min-height: 500px;
+	padding-bottom: 100px;
+	color: white;
+}
 
 .navbar {
     top: 50px;
@@ -9,14 +28,13 @@
     transition: all 0.3s ease;
 }
 
-
 .navbar-nav > li{
     padding-left:10px;
     padding-right:10px;
 
 }
 .navbar-nav > li > a:hover {
-    background-color: white;
+    background-color: #FFFF00;
     color: black;
 }
 
@@ -29,8 +47,21 @@
     line-height: 20px;
 }
 
-.icon-bar {
-    background: #bbb;
+.modal-dialog {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+
+}
+
+.popup-form {
+    width: 90%;
+    max-width: 375px;
+    margin: 60px auto;
+}
+
+.popup-form .form-control {
+    margin: 20px 0;
 }
 
 .btn.btn-blue {
@@ -47,10 +78,6 @@
 
 }
 
-
-
-
-
-
-
-
+.icon-bar {
+    background: #bbb;
+}
