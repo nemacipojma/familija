@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8058259-9697-4590-bee4-de3d5e35ea0e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/thumbs/thumb9.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onama.html" afterPath="$PROJECT_DIR$/onama.html" />
-    </list>
+    <list default="true" id="f8058259-9697-4590-bee4-de3d5e35ea0e" name="Default" comment="" />
     <ignored path="familija.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cenovnik.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cenovnik.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cenovnik.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kontakt1.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/kontakt1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,8 +64,8 @@
       <file leaf-file-name="generalni.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/generalni.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+            <state relative-caret-position="-48">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -294,12 +277,12 @@
       <workItem from="1479150311764" duration="17513000" />
       <workItem from="1479234842947" duration="15316000" />
       <workItem from="1479251545325" duration="6297000" />
-      <workItem from="1479322771617" duration="2185000" />
+      <workItem from="1479322771617" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50926000" />
+    <option name="totallyTimeSpent" value="51211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
@@ -340,14 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/galerija.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/registracija.css" />
     <entry file="file://$PROJECT_DIR$/css/navigacija.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -577,18 +552,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/generalni.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cenovnik.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cenovnik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -601,10 +576,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cenovnik.html">
+    <entry file="file://$PROJECT_DIR$/css/generalni.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+        <state relative-caret-position="-48">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/kontakt1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
