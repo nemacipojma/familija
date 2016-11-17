@@ -19,7 +19,7 @@ html, body {
 }
 
 .navbar {
-    top: 50px;
+    margin-top: 50px;
     position: absolute;
     z-index: 9500;
     width: 100%;
@@ -86,14 +86,9 @@ html, body {
     color: white;
 }
 
-.logo {
-color: lightblue;
-padding-left: 40px;
-
-}
-
-.izrada {
-padding-top: 40px;
-
-
-}
+#navigacija {
+	background: url('../img/logoteretane.jpg');
+	background-size: 20% 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-top: 20px;
