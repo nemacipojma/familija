@@ -19,7 +19,7 @@ html, body {
 }
 
 .navbar {
-    margin-top: 50px;
+    margin-top: 20px;
     position: absolute;
     z-index: 9500;
     width: 100%;
@@ -44,7 +44,7 @@ html, body {
     padding: 15px 25px;
     font-size: 16px;
     color: white;
-    line-height: 20px;
+    line-height: 500px;
 }
 
 .modal-dialog {
@@ -87,8 +87,9 @@ html, body {
 }
 
 #navigacija {
-	background: url('../img/logoteretane.jpg');
-	background-size: 20% 100%;
+	background: url('../img/123456789.jpg');
+	background-size: 15% 100%;
 	background-repeat: no-repeat;
 	height: 400px;
 	margin-top: 20px;
+	width: 100%;
